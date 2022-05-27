@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  size: 100%;
+}
+
+.check-container {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.desc-container {
+  width: auto;
+  height: 50px;
+  text-align: center;
+  margin-left: -10px;
+}
+
+.check-container-plan {
+  height: 70px;
+  width: 50px;
+  line-height: 70px;
+
+
+  text-align: center;
+}
+
+
+:root {
+  --first-instagram: #a131c4;
+  --last-instagram: #ef4d5c;
+  --facebook-blue: #1877f2;
+  --youtube-red: #ff0000;
+  --whatsapp-green: #1bd741;
+  --linkedin-blue: #0077b7;
+  --call-green: #8aec75;
+  --email-black: #333333;
+  --location-gray: #dddddd;
+  --dark-green: #0b582c;
+  --cyan: #73bd9b;
+  --light-green: #92f075;
+  --light-gray: #f3f3f3;
+  --light-black: #1d262b;
+  --dark-blue: #180f55;
+  --green-gray: #88d4b2;
+}
+
+
+
