@@ -1,8 +1,17 @@
 import React from "react";
 import Navbar from "../../components/Navbar/index.jsx";
-import { SocialMediaContainer, Block, BlockContainer, BudgetTitle, Company, CompanyContainer, Content, HomeContainer, LeftSide, ObsContainer, PlayerContainer, RightSide } from "./styles.js";
+import { 
+    SocialMediaContainer, 
+    Block, BlockContainer, 
+    BudgetTitle, Company, 
+    CompanyContainer, Content, 
+    HomeContainer, LeftSide, 
+    ObsContainer, PlayerContainer, 
+    RightSide 
+} from "./styles.js";
 import Player from "./components/Player.jsx";
-import { FaCheck, FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaCheck, FaYoutube, FaFacebook, FaInstagram, 
+    FaLinkedin } from 'react-icons/fa'
 
 
 const Home = () => {

@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const SelectStyle = styled.div`
-  
-  
   width: 33%;
   display: flex;
   align-items: center;

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Navbar as BSNavbar } from "react-bootstrap";
-import {Link} from 'react-router-dom'
 
 
 export const NavbarStyle = styled(BSNavbar)`
@@ -26,8 +25,7 @@ export const NavbarStyle = styled(BSNavbar)`
         :hover {
             color: var(--green-gray);
         }
-    }
-      
+    } 
   }
 `;
 

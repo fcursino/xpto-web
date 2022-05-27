@@ -22,10 +22,5 @@ button {
     
     transform: scale(1.02);
     }
-
-    :focus{
-        cursor: pointer;
-        padding: red 6px 10px;
-    }
   }
 `;

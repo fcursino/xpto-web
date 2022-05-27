@@ -1,7 +1,11 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
-import { Content, ServicesContainer, ServiceSection, ServiceText, Title, TitleContainer } from "./styles";
+import { 
+    Content, ServicesContainer, 
+    ServiceSection, ServiceText, 
+    Title, TitleContainer 
+} from "./styles";
 
 
 const Services = () => {

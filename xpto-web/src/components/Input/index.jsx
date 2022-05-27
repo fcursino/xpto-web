@@ -2,7 +2,7 @@ import React from 'react'
 import { InputStyle } from './styles'
 
 
-const Input = ({name, value, placeholder, ...rest}) => {
+const Input = ({name, value, placeholder}) => {
     return (
         <InputStyle>
             <input
@@ -10,7 +10,6 @@ const Input = ({name, value, placeholder, ...rest}) => {
                 maxLength='300'
                 placeholder={placeholder}
                 value={value}
-                {...rest}
             />
         </InputStyle>
     )

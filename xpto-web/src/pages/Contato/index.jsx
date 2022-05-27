@@ -1,7 +1,15 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp, FaAt, FaPhone, FaMap } from 'react-icons/fa'
-import { ContactChannels, ContactContainer, Content, SocialMediaContainer, LeftSide, RightSide } from "./styles";
+import { 
+    FaYoutube, FaFacebook, FaInstagram, 
+    FaLinkedin, FaWhatsapp, FaAt, 
+    FaPhone, FaMap 
+} from 'react-icons/fa'
+import { 
+    ContactChannels, ContactContainer, 
+    Content, SocialMediaContainer, 
+    LeftSide, RightSide 
+} from "./styles";
 import Footer from "../../components/Footer";
 
 

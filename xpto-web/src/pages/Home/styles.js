@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Row } from "react-bootstrap";
 
 export const HomeContainer = styled.div`
-    
     height: 110vh;
     width: 100%;
 `;
@@ -73,9 +72,7 @@ export const Content = styled(Row)`
 
 export const PlayerContainer = styled.div`
     display: grid;
-    /* height: 100%; */
     padding: 20px;
-    
     max-width: 90%;
 
 `;
@@ -103,7 +100,6 @@ export const Block = styled.div`
 
     :hover {
     transition: all 0.3s;
-    
     transform: scale(1.03);
     }
 
@@ -111,7 +107,6 @@ export const Block = styled.div`
 
 export const CompanyContainer = styled.div`
     display: grid;
-    
     padding: 20px;
     
 `;

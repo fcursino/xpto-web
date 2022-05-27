@@ -23,20 +23,21 @@ export const BudgetSection = styled.div`
     align-items: center;
     justify-content:center ;
     position: relative;
-    :hover {
-    transition: all 0.3s;
     
-    transform: scale(1.07);
+    :hover {
+        transition: all 0.3s;
+        transform: scale(1.07);
     }
+
     > p {
-    text-align: center;
-    line-height: 7vh;
-    height: 7vh;
-    width: 85%;
-    border-radius: 7px;
-    display: table;
-    margin: 0 auto;
-    font-size: 12px;
+        text-align: center;
+        line-height: 7vh;
+        height: 7vh;
+        width: 85%;
+        border-radius: 7px;
+        display: table;
+        margin: 0 auto;
+        font-size: 12px;
     }
 
     > h3 {

@@ -3,8 +3,6 @@ import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
     height: 100vh;
-    
-
 `;
 
 export const LeftSide = styled.div`
@@ -47,10 +45,6 @@ export const SocialMediaContainer = styled.div`
     }
 `;
 
-export const Map = styled.div`
-
-`;
-
 export const Content = styled.div`
     align-items: center;
     align-content: center;
@@ -68,13 +62,10 @@ export const Content = styled.div`
 `;
 
 export const ContactChannels = styled.div`
-
-    
     width: 30%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-
 
     > a {
         margin: 5px;
