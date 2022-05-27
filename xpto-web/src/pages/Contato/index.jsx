@@ -18,7 +18,7 @@ const Contact = () => {
                             <tbody>
                                 <tr>
                                     <td>
-                                        <a href="">
+                                        <a href="/">
                                             <FaYoutube color="var(--youtube-red)" size="30px" />
                                         </a>
                                     </td>
@@ -26,7 +26,7 @@ const Contact = () => {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="">
+                                        <a href="/">
                                             <FaFacebook color="var(--facebook-blue)" size="30px" />
                                         </a>
                                     </td>
@@ -34,7 +34,7 @@ const Contact = () => {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="">
+                                        <a href="/">
                                             <FaInstagram color="var(--last-instagram)" size="30px" />
                                         </a>
                                     </td>
@@ -42,7 +42,7 @@ const Contact = () => {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="">
+                                        <a href="/">
                                             <FaLinkedin color="var(--linkedin-blue)" size="30px" />
                                         </a>
                                     </td>

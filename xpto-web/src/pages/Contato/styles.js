@@ -71,8 +71,8 @@ export const ContactChannels = styled.div`
 
     
     width: 30%;
-    display: grid;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
 

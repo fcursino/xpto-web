@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
-import { BudgetContainer, BudgetDescContainer, BudgetPriceContainer, BudgetSection, BudgetSetContainer, BudgetTipContainer, BudgetTitleContainer, Content, CurrencySelect, InputContainer, QuestionContainer } from "./styles";
+import { BudgetContainer, BudgetDescContainer, BudgetPriceContainer, BudgetSection, BudgetSetContainer, BudgetTipContainer, BudgetTitleContainer, Content, InputContainer, QuestionContainer } from "./styles";
 import { FaCheck } from 'react-icons/fa'
 import { displayValue } from '../../util/currency'
 import Select from "../../components/Select";

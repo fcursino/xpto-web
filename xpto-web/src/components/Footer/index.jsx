@@ -1,6 +1,6 @@
 import React from 'react'
 import { SocialMediaContainer, Column, Content, SocialColumn, PoweredByContainer, FooterContainer, Logo } from './styles'
-import { FaCheck, FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -25,16 +25,16 @@ const Footer = () => {
                 <SocialColumn>
                     <h4>Siga-nos</h4>
                     <SocialMediaContainer>
-                    <a href="">
+                    <a href="/">
                             <FaYoutube color="var(--green-gray)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaFacebook color="var(--green-gray)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaInstagram color="var(--green-gray)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaLinkedin color="var(--green-gray)" size="30px" />
                         </a>
                     </SocialMediaContainer>

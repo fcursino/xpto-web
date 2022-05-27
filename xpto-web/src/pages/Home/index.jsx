@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../../components/Navbar/index.jsx";
 import { SocialMediaContainer, Block, BlockContainer, BudgetTitle, Company, CompanyContainer, Content, HomeContainer, LeftSide, ObsContainer, PlayerContainer, RightSide } from "./styles.js";
 import Player from "./components/Player.jsx";
@@ -18,16 +18,16 @@ const Home = () => {
                     <p>Apresentação da Empresa</p>
                     <h6>Fique por dentro de tudo em nossas redes sociais:</h6>
                     <SocialMediaContainer>
-                        <a href="">
+                        <a href="/">
                             <FaYoutube color="var(--dark-green)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaFacebook color="var(--dark-green)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaInstagram color="var(--dark-green)" size="30px" />
                         </a>
-                        <a href="">
+                        <a href="/">
                             <FaLinkedin color="var(--dark-green)" size="30px" />
                         </a>
                     </SocialMediaContainer>
